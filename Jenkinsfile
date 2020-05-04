@@ -1,7 +1,9 @@
 pipeline {
 	agent any
 
-    stages {
+    docker
+	
+	stages {
 
 		stage('SCM') {
 			steps {
