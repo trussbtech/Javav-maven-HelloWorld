@@ -9,13 +9,6 @@ pipeline {
 		 }
 	   }
 
-        stage ('Test') {
-          steps {
-			sh 'mvn test'
-			ech 'Testing phase ...'
-		 }
-	   }
-
 	}
    
    post {
