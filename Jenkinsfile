@@ -4,7 +4,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-            	'mvn clean compile'
+            	'sh mvn clean compile'
                 }
             }
    }
